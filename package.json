@@ -4,11 +4,25 @@
   "description": "A coding challenge to assess your ability to navigate an express server implementation.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha tests/acceptence/user.acceptence.js tests/acceptence/institution.acceptence.js tests/acceptence/book.acceptence.js tests/integration/user.integration.js tests/integration/institution.integration.js tests/integration/book.integration.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chance": "^1.0.18",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "save": "^2.4.0",
+    "sequelize": "^5.8.6",
+    "sqlite3": "^4.0.8",
+    "superagent": "^5.0.5",
+    "validator": "^11.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
   }
 }
