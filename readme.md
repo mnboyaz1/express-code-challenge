@@ -1,3 +1,22 @@
+## Accomplished Tasks
+Given my current employment, the following tasks were completed on time.
+- Implemented sequelize ORM with Sqlite, Express, Jsend and Passport.
+- Implemented model acceptance tests
+- Implemented API integration tests (in lieu of Postman)
+- Implemented re-usable app functions
+
+## TBD tasks
+- Validate email domain against institution
+- Search for books based on user/institution relation
+- Encrypt sensitive data (passwords, etc)
+- Install lint
+
+## Installation
+- requires node 10.12+, globally installed mocha
+- `npm install`
+- `npm test`
+- `npm start`
+
 # Express Coding Challenge
 The premise of this challenge is to see the approach you take to:
 - Use an ORM to interact with a simple database model
